@@ -4,7 +4,7 @@
   "description": "Rotate array by n positions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,5 @@
   "bugs": {
     "url": "https://github.com/sanketmaru/array-rotate/issues"
   },
-  "homepage": "https://github.com/sanketmaru/array-rotate"
+  "homepage": "https://github.com/sanketmaru/array-rotate",
 }
