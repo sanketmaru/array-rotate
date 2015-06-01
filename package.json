@@ -4,7 +4,7 @@
   "description": "Rotate array by n positions",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha test/*"
   },
   "repository": {
     "type": "git",
@@ -20,4 +20,8 @@
     "url": "https://github.com/sanketmaru/array-rotate/issues"
   },
   "homepage": "https://github.com/sanketmaru/array-rotate",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
 }
