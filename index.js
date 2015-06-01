@@ -12,7 +12,7 @@ exports.rotateByLast = function(array, positions){
 	var tempArr = [];
 
 	tempArr = array.reverse(midElement, arrayLength);
-	tempArr = array.reverse(0, midElement);
+	tempArr = array.reverse(0, midElement-1, tempArr);
 	tempArr = tempArr.reverse(0, tempArr.length);
 
 	return tempArr;
@@ -25,9 +25,9 @@ function MyArray(){
 
 	customArray = Array.apply(this, arguments[0]);
 
-	customArray.reverse = function(startIndex, endIndex){
+	customArray.reverse = function(startIndex, endIndex, tempArr){
 		var arrayLengthToReverse = startIndex;
-		var tempArr = [];
+		var tempArr = tempArr || [];
 		for(var i=endIndex;i >= startIndex;i--){
 			tempArr[arrayLengthToReverse] = this[i];
 			arrayLengthToReverse++;
