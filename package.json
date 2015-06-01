@@ -1,0 +1,23 @@
+{
+  "name": "array-rotate",
+  "version": "1.0.0",
+  "description": "Rotate array by n positions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanketmaru/array-rotate.git"
+  },
+  "keywords": [
+    "array",
+    "rotate"
+  ],
+  "author": "Sanket Maru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanketmaru/array-rotate/issues"
+  },
+  "homepage": "https://github.com/sanketmaru/array-rotate"
+}
