@@ -4,7 +4,7 @@
   "description": "Rotate array by n positions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
